@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px;
+
+  > p {
+    color: $White;
+    letter-spacing: 5px;
+  }
+}

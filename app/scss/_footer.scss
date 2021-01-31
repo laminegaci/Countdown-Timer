@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+
+  > img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  position: relative;
+
+  > span {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      background-color: $Softred;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $Verydarkblue;
+  background-image: url("/images/bg-stars.svg");
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+}
+
+.app {
+  width: 100%;
+  height: 97vh;
+}
